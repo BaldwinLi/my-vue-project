@@ -1,7 +1,16 @@
 <template>
   <div class="hello">
     <p>{{msg}}</p>
-    
+    <div>
+      <input v-model="msg">
+      </div>
+    <span v-text="msg"></span>
+    <button @click="sayHello()">sayHello</button>
+    <div>
+      <a :href="url" target="_blank">go to bing</a>
+    </div>
+
+    {{bool | capitalize}}
   </div>
 </template>
 
@@ -10,10 +19,20 @@ import Component from 'vue-class-component'
 
 @Component
 export default class Hello extends window.Vue {
-  name= 'hello';
+  name = 'hello';
+  url = 'http://cn.bing.com';
+  bool = 0;
   data () {
     return {msg: 'Welcome to Your Vue.js App'}
   }
+
+  sayHello () {
+    this.msg = 'click success!'
+  }
+
+  // capitalize (value) {
+  //   return value ? 'true' : 'false'
+  // }
 }
 </script>
 
