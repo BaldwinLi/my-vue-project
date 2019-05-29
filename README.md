@@ -20,8 +20,6 @@ npm run build --report
 # run unit tests
 npm run unit
 
-<embed src="http://player.youku.com/player.php/sid/XNzQxMjU2ODI0/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
-
 # run e2e tests
 npm run e2e
 
