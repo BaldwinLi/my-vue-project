@@ -29,4 +29,4 @@ npm test
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-<video controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png"><source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4"><source src="http://media.w3.org/2010/05/sintel/trailer.webm" type="video/webm"><source src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg"><p>Your user agent does not support the HTML5 Video element.</p></video>
+<embed src="http://player.youku.com/player.php/sid/XNzQxMjU2ODI0/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
